@@ -1,0 +1,71 @@
+.mentions {
+  /* margin: 1em 0; */
+  /* background-color: rgba(34, 37, 41, 255); */
+}
+
+.mentions--singleLine .mentions__control {
+  display: inline-block;
+  width: 130px;
+}
+.mentions--singleLine .mentions__highlighter {
+  padding: 1px;
+  border: 2px inset transparent;
+}
+.mentions--singleLine .mentions__input {
+  padding: 1px;
+  border: 2px inset;
+}
+
+.mentions--multiLine .mentions__control {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 0.875rem;
+}
+.mentions--multiLine .mentions__highlighter {
+  border: none !important;
+  padding: 9px;
+  min-height: 63px;
+}
+.mentions--multiLine .mentions__input {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  /* border: 1px solid silver; */
+  border: none;
+  padding: 9px;
+  outline: 0;
+  color: black;
+  /* border-radius: 4px; */
+}
+
+.mentions__suggestions__list {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  font-size: 0.875rem;
+  border-radius: 4px;
+}
+
+.mentions__suggestions__item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.mentions__suggestions__item--focused {
+  background-color: rgba(18, 100, 163, 255);
+}
+
+.mentions__mention {
+  position: relative;
+  z-index: 1;
+  color: rgb(29, 155, 240);
+  /* text-shadow: 1px 1px 1px rgba(34, 37, 41, 255),
+    1px -1px 1px rgba(34, 37, 41, 255), -1px 1px 1px rgba(34, 37, 41, 255),
+    -1px -1px 1px rgba(34, 37, 41, 255); */
+  text-shadow: 1px 1px 1px white, 1px -1px 1px white, -1px 1px 1px white,
+    -1px -1px 1px white;
+  pointer-events: none;
+}
+
+/* .mentions__command {
+  position: relative;
+  z-index: 1;
+  color: white;
+  pointer-events: none;
+} */
