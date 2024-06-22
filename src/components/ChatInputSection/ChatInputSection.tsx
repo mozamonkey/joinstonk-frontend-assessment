@@ -39,7 +39,7 @@ const ChatInputSection = ({
     {
       id: "description",
       display: "/description",
-      description: "set a description for the current stream",
+      description: "Set a description for the current stream",
     },
   ];
 
